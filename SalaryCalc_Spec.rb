@@ -1,4 +1,4 @@
-require_relative 'salary_calculator'
+require_relative 'SalaryCalc.rb'
 
 RSpec.describe "Salary calculator" do
   describe "calculate_base_pay" do
