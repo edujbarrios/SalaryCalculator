@@ -1,0 +1,62 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{datetime}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Configuración de la página
+\geometry{a4paper, left=25mm, right=25mm, top=25mm, bottom=25mm}
+
+% Configuración de los hipervínculos
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\title{Factura de servicios}
+\author{Tú}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Datos del cliente}
+Nombre: [NOMBRE DEL CLIENTE] \\
+Email: [EMAIL DEL CLIENTE] \\
+Dirección: [DIRECCIÓN DEL CLIENTE] \\
+Ciudad: [CIUDAD DEL CLIENTE] \\
+País: [PAÍS DEL CLIENTE] \\
+
+\section{Detalle del trabajo realizado}
+Nombre del trabajo: [NOMBRE DEL TRABAJO] \\
+Horas trabajadas: [HORAS TRABAJADAS] \\
+Tarifa por hora: [TARIFA POR HORA] \\
+Horas extra: [HORAS EXTRA] \\
+Tarifa por hora extra: [TARIFA POR HORA EXTRA] \\
+Impuestos (\%): [PORCENTAJE DE IMPUESTOS] \\
+Días de espera del pago: [DÍAS DE ESPERA DEL PAGO] \\
+
+\section{Detalle del pago}
+Salario base: [SALARIO BASE] \\
+Salario extra: [SALARIO EXTRA] \\
+Salario bruto: [SALARIO BRUTO] \\
+Impuestos a pagar: [IMPUESTOS A PAGAR] \\
+Comisión de PayPal (\%): [PORCENTAJE DE COMISIÓN DE PAYPAL] \\
+Precio final en euros: [PRECIO FINAL EN EUROS] \\
+Precio final en dólares: [PRECIO FINAL EN DÓLARES] \\
+
+\section{Notas}
+[NOTAS ADICIONALES, SI LAS HAY]
+
+\end{document}
+
+%\begin{figure}[h]
+   % \includegraphics[width=3cm]{ruta/al/logo}
+%\end{figure}
